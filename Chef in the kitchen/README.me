@@ -1,0 +1,17 @@
+Input specification: the first line contains a positive integer n, representing the number of food items that are donated. 
+Following that are n lines. Each line contains 2 values, separated by a space, that specify a particular donated food item. 
+The first such value indicates the time unit that the food item arrives. This value is guaranteed to be a non-negative integer. 
+The second such value indicates the shelf life associated with this food item. This value is guaranteed to be a positive integer. 
+It represents the number of time units that the donated food item is viable. If the item is not used within that many time units 
+(including the unit it arrived), it goes bad. So for example, a value of 1 indicates that the food item must be used on the same 
+time unit that it arrived.
+
+You as chef can utilize only 1 food item per time unit, and can choose to use a food item in the same time unit that it arrives, 
+or delay it for a later time unit. Note that there may be multiple food items that arrive at the same time unit. (The problem is 
+trivial if this doesn't occur.)
+
+You may assume that n is not bigger than 1,000,000 and that each input value fits in a 32-bit integer. You may also assume that the 
+input file lists the food items in non-decreasing order of arrival time.
+
+Output specification: the output contains a single line with a single string: "YES" (if it is possible to use all food items without 
+any going to waste) or "NO" (otherwise), including the end of line character.

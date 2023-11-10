@@ -2,8 +2,7 @@
 
 ## Problem Definition
 Given n distinct points in 2-dimensional space, the task is to design an O(n^2logn) algorithm that determines 
-whether any three of these points are evenly spaced, forming co-linear points. A Θ(n^3) algorithm can earn at 
-most 8 out of 18 marks.
+whether any three of these points are evenly spaced, forming co-linear points. 
 
 ## Explanation
 The goal of this problem is to identify, among a set of points, whether there exist any three points that are 

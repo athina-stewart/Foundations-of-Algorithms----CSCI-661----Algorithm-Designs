@@ -1,14 +1,3 @@
-/**
- * CSCI-665: FOUNDATIONS OF ALGORITHMS
- * Assignment 4, Question 2.2
- * This program uses an O(nlogn) algorithm to determine if given a
- * set of jobs with start time, end time and pro bono potential,
- * the maximum number of jobs that can be undertaken given that one
- * job at minimum must be pro bono
- * Authors:
- * Katyani Mehra, km7872@rit.edu
- * Athina Stewart, as1896@rit.edu
- * **/
 import java.util.*;
 import java.util.Comparator;
 
